@@ -1,0 +1,28 @@
+{
+    "numero_do_edital":"01/2024",
+    "municipio":"Prefeitura Municipal de São Miguel Arcanjo",
+    "empregos":[
+        {
+            "emprego":"Analista da Tecnologia",
+            "total_vagas":1,
+            "ultimo-classificado":0,
+            "inscrições":[
+                {
+                    "numero_inscrição":1,
+                    "nome":"Matheus Rato Matias",
+                    "informações_pessoais":{
+                        "cpf":"123.456.789-10",
+                        "rg":"12.345.678.9",
+                        "email":"teste@mail.com"
+                    },
+                    "status":{
+                        "situação":"Classificado",
+                        "posição":1
+                    },
+                    "nota_final":74.00,
+                    "modalidade":"Ampla Concorrência"
+                }
+            ]
+        }
+    ]
+}
