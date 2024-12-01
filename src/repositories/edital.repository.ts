@@ -1,9 +1,14 @@
-import { IEdital, Edital } from "../models/edital.model";
+import { Edital, IEdital } from "../models/edital.model";
 
-const create = async (payload: IEdital): Promise<IEdital> =>{
+const create = async (payload: IEdital): Promise<any> =>{
     const edital = new Edital(payload);
     await edital.save();
     return edital;
 };
 
-export {create};
+const getAll = async (): Promise<any> =>{
+    const edital = await Edital.find();
+    return edital;
+}
+
+export {create, getAll};

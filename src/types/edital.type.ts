@@ -27,6 +27,7 @@ type EditalRequestDTO = {
 };
 
 type EditalResponseDTO = {
+    id:string,
     numero:string;
     municipio:string;
     empregos:EmpregosDTO[];

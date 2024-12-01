@@ -28,36 +28,36 @@ interface IInformacoesPessoais{
     email:string;
 };
 
-const InformacoesPessoaisSchema = new Schema<IInformacoesPessoais>({
+const informacoesPessoaisSchema = new Schema<IInformacoesPessoais>({
     cpf:{type:String,required:true},
     rg:{type:String, required:true},
     email:{type:String,required:true}
 });
 
-const InscricoesSchema = new Schema<IInscricoes>({
+const inscricoesSchema = new Schema<IInscricoes>({
     numeroInscricao:{type:Number, required:true},
     nome:{type:String, required:true},
-    informacoesPessoais:{type:InformacoesPessoaisSchema, required:true},
+    informacoesPessoais:{type:informacoesPessoaisSchema, required:true},
     status:{type:String, required:true},
     posicao:{type:Number},
     notaFinal:{type:Number, required:true},
     modalidade:{type:String, required:true}
 });
 
-const EmpregosSchema = new Schema<IEmpregos>({
+const empregosSchema = new Schema<IEmpregos>({
     descricao:{type:String,required:true},
     totalVagas:{type:Number,required:true},
-    inscricoes:{type:[InscricoesSchema], required:true}
+    inscricoes:{type:[inscricoesSchema], required:true}
 });
 
-const EditalSchema = new Schema<IEdital>({
+const editalSchema = new Schema<IEdital>({
     numero:{type:String, required:true},
     municipio:{type:String, required:true},
-    empregos:{type:[EmpregosSchema], required:true}
+    empregos:{type:[empregosSchema], required:true}
 });
 
 const Edital: Model<IEdital> = mongoose.model<IEdital>(
-    "Edital",EditalSchema
+    "Edital",editalSchema
 );
 
 export {Edital, IEdital}
