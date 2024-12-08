@@ -3,7 +3,7 @@ import { criaEdital, listaEditais, } from "../controllers";
 
 const editalRoute = Router();
 
-editalRoute.post("/", criaEdital);
-editalRoute.get("/", listaEditais);
+editalRoute.post("/editais", criaEdital);
+editalRoute.get("/editais", listaEditais);
 
 export {editalRoute};
