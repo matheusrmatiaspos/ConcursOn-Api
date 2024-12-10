@@ -110,6 +110,7 @@ src
 #### 🔒 Segurança
 - [ ] Implementação do JWT;
 - [ ] Configuração de Roles de usuários.
+- [ ] Validação de dados
 
 #### 📒 Editais
 - [x] Inserir edital de concurso;
