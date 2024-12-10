@@ -27,8 +27,8 @@ O ConcursOn é construido usando TypeScript, NodeJS e MongoDB. Permite que desen
 - MongoDB instalado;
 - Conhecimentos em MongoDB.
 
-[`📗 Guia de Instação NodeJs`]()
-[`📙 Guia de Instação MongoDB`]()
+[`📗 Guia de Instação NodeJs`](https://nodejs.org/pt)
+[`📙 Guia de Instação MongoDB`](https://www.mongodb.com/pt-br)
 
 <hr>
 
@@ -39,7 +39,7 @@ A linguagem ecolhida foi TypeScript juntamente com NodeJS e o banco de dados nã
 - [Mongoose Js](https://mongoosejs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-![Diagrama da Stack](https://github.com/user-attachments/assets/3f18ebb4-8ea7-41b7-9c44-730af0c28b5e)
+![Diagrama da Stack](https://github.com/user-attachments/assets/d8e58ec7-89a7-4994-a903-83ad370db6d8)
 > Imagem feita utilizando o [Excalidraw](https://excalidraw.com/)
 
 <hr>
